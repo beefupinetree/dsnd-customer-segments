@@ -249,7 +249,7 @@ plt.show()
 col_n = col_nulls.sort_values(ascending=True)
 print(col_n.head(30))
 ```
-`print thing`
+
 ```python
 # Write code to divide the data into two subsets based on the number of missing
 # values in each row.
@@ -332,7 +332,7 @@ print(arr)
 
 arr = np.delete(arr, np.where(arr=='OST_WEST_KZ'))
 ```
-`print thing`
+
 ```python
 # Re-encode categorical variable(s) to be kept in the analysis.
 azdias_lowNaN = azdias_lowNaN.drop(arr, axis=1, inplace=False)
@@ -341,7 +341,7 @@ binary_nums = {"OST_WEST_KZ": {"O": 0, "W": 1}}
 azdias_lowNaN = azdias_lowNaN.replace(binary_nums, inplace=False)
 azdias_lowNaN["OST_WEST_KZ"].head()
 ```
-`print thing`
+
 
 #### Step 1.2.2: Engineer Mixed-Type Features
 
